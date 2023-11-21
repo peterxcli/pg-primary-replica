@@ -35,7 +35,7 @@ safe_wal_size       |
 two_phase           | f
 ```
 
-It is important to pay attention at the following printed fields (see documentation):
+It is important to pay attention at the following printed fields (see [documentation](https://www.postgresql.org/docs/14/view-pg-replication-slots.html)):
 
 active —must be true indicating that replication slot is currently actively being used;
 restart_lsn —must be not null, it indicates the address (LSN) of oldest WAL which still might be required by the consumer of this slot.
